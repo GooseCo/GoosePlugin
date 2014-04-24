@@ -1,0 +1,4 @@
+#Default Config for GoosePlugin, most aspects of this plugin are customizable!
+
+#What is the MOTD? COLOR CODES (&6) ARE NOT YET SUPPORTED!!!
+MOTD: This is a test.

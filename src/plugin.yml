@@ -1,0 +1,16 @@
+name: GoosePlugin
+main: com.goosecraftmc.GoosePlugin.Main
+author: GooseCo Inc
+version: 0.2
+description: >
+            The backbone of the GooseCraft server network.
+commands:
+    motd:
+        description: Displays the MOTD to the player.
+    gamemode:
+        aliases: [gm]
+        description: Changes a players gamemode.
+    killall:
+        description: Kills all of a specified entity.
+    fly:
+        description: Toggles flight for a player.
