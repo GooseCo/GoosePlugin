@@ -10,6 +10,10 @@ commands:
     gamemode:
         aliases: [gm]
         description: Changes a players gamemode.
+    feed:
+        description: Feeds you.
+    heal:
+        description: Heals you.
     killall:
         description: Kills all of a specified entity.
     fly:
