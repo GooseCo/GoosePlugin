@@ -18,5 +18,7 @@ commands:
         description: Kills all of a specified entity.
     fly:
         description: Toggles flight for a player.
-    displayname:
-        description: Change your displayed name.
+    nick:
+        aliases: [nickname]
+        description: Changes your nickname in chat.
+        
