@@ -21,4 +21,5 @@ commands:
     nick:
         aliases: [nickname]
         description: Changes your nickname in chat.
-        
+    kill:
+        description: Will kill a player.

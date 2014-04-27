@@ -94,6 +94,13 @@ public class Main extends JavaPlugin implements Listener{
 				player.sendMessage(ChatColor.RED + "Only one argument!");
 			}
 			
+		}else if(commandLabel.equalsIgnoreCase("kill")){
+			if(args.length == 0){
+				player.setHealth(0);
+				player.sendMessage(ChatColor.GREEN + "You have been killed!");
+			}else if(args.length >= 1){
+				player.sendMessage(ChatColor.RED + "This command does not yet allow for you to kill other people, as this plugin is still under heavy development!");
+			}
 		}
 		return false;		
 	}
