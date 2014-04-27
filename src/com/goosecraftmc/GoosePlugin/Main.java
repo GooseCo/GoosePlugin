@@ -83,17 +83,6 @@ public class Main extends JavaPlugin implements Listener{
 				player.sendMessage(ChatColor.GREEN + "Flight disabled!");
 				player.setAllowFlight(false);
 			}
-		}else if(commandLabel.equalsIgnoreCase("nick") || commandLabel.equalsIgnoreCase("nickname")){
-			//Displayname Command
-			if(args.length == 0){
-				player.sendMessage(ChatColor.RED + "You need to set a name!");
-			}else if(args.length == 1){
-				player.setDisplayName(args[0]);
-				player.sendMessage(ChatColor.GREEN + "Your name has been set to '" + args[0] +"'!");
-			}else if(args.length >= 2){
-				player.sendMessage(ChatColor.RED + "Only one argument!");
-			}
-			
 		}else if(commandLabel.equalsIgnoreCase("kill")){
 			if(args.length == 0){
 				player.setHealth(0);
