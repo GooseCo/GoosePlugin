@@ -88,7 +88,7 @@ public class Main extends JavaPlugin implements Listener{
 			if(args.length == 0){
 				player.sendMessage(ChatColor.RED + "You need to set a name!");
 			}else if(args.length == 1){
-				player.setDisplayName(getConfig().getString("beforeNick") + args[0]);
+				player.setDisplayName(args[0]);
 				player.sendMessage(ChatColor.GREEN + "Your name has been set to '" + args[0] +"'!");
 			}else if(args.length >= 2){
 				player.sendMessage(ChatColor.RED + "Only one argument!");
